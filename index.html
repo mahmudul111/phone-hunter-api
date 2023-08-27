@@ -9,10 +9,13 @@
 </head>
 <body>
     <header>
-    <h1 class="text-6xl">Phone Hunting</h1>
+    <section id="search-container" class=" mt-10 ml-10">
+        <input id="search-input" type="text" placeholder="Search here..." class="input input-bordered w-full max-w-xs" />
+        <button onclick="searchField()" class="btn btn-primary ml-1">Search</button>
+    </section>
     </header>
     <main>
-        <section class="mt-14">
+        <section class="mt-14 mx-10">
             <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 
             </div>
